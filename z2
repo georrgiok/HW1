@@ -1,0 +1,18 @@
+// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+Console.WriteLine("Ведите первое число");
+int one = Int32.Parse(Console.ReadLine());
+Console.WriteLine("Ведите второе число");
+int two = Int32.Parse(Console.ReadLine());
+Console.WriteLine("Ведите третье число");
+int tree = Int32.Parse(Console.ReadLine());
+
+int max = one; 
+if (two > max )
+{
+max = two; 
+}
+if (tree > max )
+{
+    max = tree ;
+}
+Console.WriteLine("максимальное из этих чисел  " + max ); 
