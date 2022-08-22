@@ -1,0 +1,13 @@
+// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее
+Console.WriteLine("Ведите первое число");
+int one = Int32.Parse(Console.ReadLine());
+Console.WriteLine("Ведите второе число");
+int two = Int32.Parse(Console.ReadLine());
+if (one > two)
+{
+    Console.WriteLine("Большее   "+  one + "Меньшее  " + two );
+} 
+else
+{
+Console.WriteLine("Большее  " + two + "Меньшее  " + one );
+}
